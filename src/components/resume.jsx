@@ -176,7 +176,7 @@ const Resume = () => {
         </div>
 
       </div>
-      <button className='btn pos'>Show Resume</button>
+      <a href="https://drive.google.com/file/d/1TSzNwJW3vTIXl5AikdbBFAe1TPUivBg1/view?usp=drive_link"><button className='btn pos'>Show Resume</button></a>
     </div>
   )
 }

@@ -6,7 +6,7 @@ import Webitems from './webapps';
 import Certitems from './certs';
 
 const Portfolio = () => {
-  const [sec, setSec] = useState("aapps");
+  const [sec, setSec] = useState("all");
 
   const handleClick = (sectionId) => {
     const b = document.getElementById('fd')
