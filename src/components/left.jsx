@@ -10,7 +10,7 @@ const Left = () => {
         <img src={profile} className='ghibli'/>
         </div>
         <div className="name">
-        Akhil Kumar Rai
+        Akhil Rai
         </div>
         <Trait title={"Flutter Developer"}/>
         <div className="sep2"></div>
