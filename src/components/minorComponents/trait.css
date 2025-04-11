@@ -1,0 +1,13 @@
+.btns{
+    background-color: #2B2B2C;
+    width: 100px;
+    padding: 6px 16px;
+    border-radius: 6px;
+    margin: 2px;
+    font-size: 12px;
+    font-family: 'Inter',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.245);
+}

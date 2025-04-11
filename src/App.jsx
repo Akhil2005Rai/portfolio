@@ -2,18 +2,19 @@ import React from 'react'
 import './App.css'
 import Left from './components/left'
 import Right from './components/right'
-import Center from './components/center'
 const App = () => {
+
   return (
-    <div className='main'>
-      <span className="left"><Left/></span>
-      <span className="center">
-        <Center/>
-      </span>
-      <span className="right">
+    <>
+      <div className="main">
+      <div className="left">
+        <Left/>
+      </div>
+      <div className="right">
         <Right/>
-      </span>
-    </div>
+      </div>
+      </div>
+    </>
   )
 }
 
