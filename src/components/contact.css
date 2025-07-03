@@ -1,0 +1,110 @@
+.contactAll {
+    display: flex;
+    margin-left: 24px;
+    margin-right: 24px;
+    align-items: center;
+}
+
+.line {
+    height: 5px;
+    width: 45px;
+    border-radius: 3px;
+    background-color: #FFDB70;
+    margin-top: 20px;
+}
+
+.inps {
+    margin-top: 35px;
+    width: 836px;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.InputStyle {
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid hsl(0, 0%, 22%);
+    padding: 15px;
+    width: 370px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+    background-color: transparent;
+}
+
+.InputStylelower {
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid hsl(0, 0%, 22%);
+    padding: 15px;
+    width: 805px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+    background-color: transparent;
+}
+
+.InputStylelowermessage {
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid hsl(0, 0%, 22%);
+    padding: 15px;
+    width: 805px;
+    height: 200px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+    background-color: transparent;
+    resize: none;
+}
+
+.btn {
+    height: 50px;
+    width: 160px;
+    background: linear-gradient(to right, #2B2B2BCF 50%, #FFDB70 50%);
+    background-size: 200%;
+    outline: none;
+    border: 1px solid hsl(0, 0%, 22%);
+    border-radius: 10px;
+    float: right;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: aliceblue;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-position: -100%;
+    color: black;
+}
+
+.bt {
+    width: 836px;
+    margin-top: 20px;
+}
+@media (max-width:769px){
+    .upper{
+        
+        width: 80vw;         
+    }
+    .InputStyle{
+        width: 182  px;   
+    }
+    .InputStylelower{
+        width: 80vw;
+    } 
+    .InputStylelowermessage{
+        width: 80vw;
+    }
+    .btn{
+        float: left;
+    }   
+}

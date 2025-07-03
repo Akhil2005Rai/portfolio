@@ -1,0 +1,119 @@
+.resumeAll{
+    margin-left: 24px;
+    margin-right: 24px; 
+    
+}
+.heads{
+    display: flex;
+    align-items: center;
+}
+.bdy{
+    margin-top: 20px;
+}
+
+.pos {
+    position: absolute;
+    top: 440px;
+    right: 30px;
+}
+
+.lin{
+    height: 25px;
+    width: 1px;
+    background-color: #FFDB70;
+}
+.bcir{
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 22%);
+    display: flex;
+    justify-content: center;
+    border: 1px solid #FFDB70;
+    align-items: center;
+}
+.scir{
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+    background-color: #FFDB70;
+}
+.crc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hd{
+    margin-left: 15px;
+    font-family: "Poppins",sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.in{
+    margin-left: 15px;
+    max-height: 200px; 
+    height: 155px;
+    position: absolute;
+    transform: scaleY(1);
+    transition: 0.2s;
+}
+.ii{
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    color: #D6D6D6;
+}
+.iid{
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    color: #FFDB70;
+    margin-bottom: 20px;
+}
+.clg{
+    margin-top: 25px;
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.clg2{
+    margin-top: 25px;
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.ln {
+    width: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-height: 1000px;
+    overflow: hidden;
+    opacity: 1;
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: all 0.2s;
+    margin-bottom: 0px;
+}
+
+.zeroh {
+    max-height: 0;
+    opacity: 0;
+    transform: scaleY(0);
+    overflow: hidden;
+    pointer-events: none;
+}
+.logo{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.logo:hover{
+    box-shadow: -1px 1px 2px 1px #FAFAFA;
+    
+}
+.sep{
+    height: 10px;
+}
+.btmar{
+    margin-bottom: 50px;
+    transition: all 0.2s;
+}

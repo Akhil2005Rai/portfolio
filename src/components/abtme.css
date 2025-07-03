@@ -1,0 +1,44 @@
+
+@media (min-width:767px){
+    .whole{
+    margin-top: 12px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.line{
+    height: 5px;
+    width: 45px;
+    border-radius: 3px;
+    background-color: #FFDB70;
+    margin-top: 20px;
+}
+.text{
+    margin-top: 20px;
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+}
+.whatwedo{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: "Poppins",sans-serif;
+}
+.logs{
+    display: flex;
+    justify-content: space-between;
+}
+}
+@media (max-width:768px){
+    .text{
+        padding: 12px;
+        font-size: 12px;
+    }
+    .line{
+        margin-left: 12px;
+    }
+    .whatwedo{
+        margin-left: 12px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
