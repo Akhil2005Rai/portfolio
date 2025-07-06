@@ -64,8 +64,9 @@ const Contact = () => {
             className='btn'
             onClick={async () => {
               try {
+                
                 console.log("Submitting formData:", formData);
-                const res = await axios.post('https://portbackend-2-2vzi.onrender.com/api/notes', formData);
+                const res = await axios.post('https://portbackend-1-f5ii.onrender.com', formData);
                 console.log('Note saved:', res.data);
                 toast.success("Message sent successfully!");
                 setFormData({ name: '', email: '', subject: '', content: '' });
