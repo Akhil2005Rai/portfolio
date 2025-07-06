@@ -49,7 +49,7 @@ const Resume = () => {
               <div className="iid">2022 - 2026</div>
               <div className="clg2">Angel's Academy Sr. Sec. School, Haridwar</div>
               <div className="ii">+2 Mathematics</div>
-              <div className="iid">2020 - 2022</div>
+              <div className="iid iid1">2020 - 2022</div>
             </div>
           </div>
         </div>
@@ -77,7 +77,7 @@ const Resume = () => {
               <div className="iid">Intermediate</div>
               <div className="clg2">Web Development</div>
               <div className="ii">HTML, CSS, JavaScript, Express, MongoDB, NodeJs</div>
-              <div className="iid">Intermediate</div>
+              <div className="iid iid1">Intermediate</div>
             </div>
           </div>
         </div>
@@ -105,7 +105,7 @@ const Resume = () => {
               <div className="iid">Uttrakhand</div>
               <div className="clg2">Team Management</div>
               <div className="ii">Collaborated with peers on multiple project-based initiatives</div>
-              <div className="iid">Chandigarh University</div>
+              <div className="iid iid1">Chandigarh University</div>
             </div>
           </div>
         </div>
@@ -131,7 +131,7 @@ const Resume = () => {
               <div className="clg">Meta-React Native</div>
               <div className="ii">Instructor: Meta Staff</div>
               <div className="iid">Intermediate</div>
-              <div className="clg2">IIT_KRG-Cloud Computing</div>
+              <div className="clg21">IIT_KRG-Cloud Computing</div>
               <div className="ii">Instructor: Prof. Soumya K. Ghosh</div>
               <div className="iid">Intermediate</div>
             </div>

@@ -63,7 +63,8 @@
   .allright {
     background-color: #1E1E1F;
     width: 94vw;
-    height: 94vh;
+    height: 85vh;
+    overflow-y: scroll;
     font-family: 'Poppins',sans-serif;
     font-size: 14px;
     margin-top: 10px;
@@ -77,5 +78,13 @@
     height: 64px;
     font-size: 14px;
     width: 320px;
+  }
+  .btn{
+    margin-top: 60px;
+    margin-right: -10px;    
+  }
+  .leftopt{
+    width: 0px;
+    overflow: hidden;
   }
 }

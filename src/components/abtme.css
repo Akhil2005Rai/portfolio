@@ -25,7 +25,7 @@
 }
 .logs{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;    
 }
 }
 @media (max-width:768px){
@@ -40,5 +40,10 @@
         margin-left: 12px;
         font-size: 18px;
         font-weight: 600;
+    }
+    .logs{
+        overflow: scroll;
+        height: fit-content;
+        padding: 12px;
     }
 }

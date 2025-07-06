@@ -38,11 +38,11 @@
 
 @media (max-width:768px) {
     .box{
-        width: 180px;
+        width: 260px;
         height: 90px;
     }   
     .lbl{
-        width: 180px;
+        width: 260px;
         margin-bottom: 10px;
     }
 }

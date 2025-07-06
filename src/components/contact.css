@@ -92,19 +92,28 @@
 }
 @media (max-width:769px){
     .upper{
-        
-        width: 80vw;         
+        width: 80vw; 
+        display: flex;
+        flex-direction: column;   
+        justify-content: space-between;     
     }
     .InputStyle{
-        width: 182  px;   
+        width: 242px;
+        margin-top: 12px;
+        margin-left: -12px;   
     }
     .InputStylelower{
-        width: 80vw;
+        width: 242px;
     } 
     .InputStylelowermessage{
-        width: 80vw;
+        width: 242px;
+        height: 120px;
     }
     .btn{
         float: left;
     }   
+    .neech{
+        display: flex;
+        flex-direction: column;
+    }
 }

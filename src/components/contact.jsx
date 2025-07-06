@@ -41,7 +41,8 @@ const Contact = () => {
               className="InputStyle"
             />
           </div>
-          <input
+          <div className="neech">
+            <input
             type="text"
             name="subject"
             value={formData.subject}
@@ -56,6 +57,7 @@ const Contact = () => {
             className='InputStylelowermessage'
             placeholder='Message'
           />
+          </div>
         </div>
         <div className="bt">
           <button
