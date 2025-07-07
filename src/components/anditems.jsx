@@ -15,7 +15,9 @@ const Anditems = () => {
         <a href="https://github.com/Akhil2005Rai/hangry-Reworked-.git">
             <Sec link={hng} ttl="Hangry(Food ordering app)" tx="Github Link"/>
             </a>
-            <Sec link={todo} ttl="Todo App" tx="Github Link"/>
+            <a href="https://github.com/Akhil2005Rai/roominate">
+                <Sec link={todo} ttl="Todo App" tx="Github Link"/>
+            </a>
             <a href="https://github.com/Akhil2005Rai/gossip_-ChatApp-.git">
             <Sec link={gsp} ttl="Gossip (Chat App)" tx="Github Link"/>
             </a>
