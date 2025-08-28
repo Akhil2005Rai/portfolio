@@ -3,6 +3,7 @@ import Sec from './minorComponents/sec'
 import './items.css'
 const Anditems = () => {
     const mt = 'https://cdn.pixabay.com/photo/2021/12/06/13/45/meta-6850393_1280.png'  
+    const qtk = 'https://thumbs.dreamstime.com/b/quiz-question-mark-sign-icon-questions-answers-game-symbol-classic-flat-vector-181034628.jpg'
     const krg = 'https://logowik.com/content/uploads/images/iit-indian-institute-of-technology-kharagpur4613.jpg'  
     const gsp = 'https://cdn.dribbble.com/userupload/22071540/file/original-0acc3417152aaf7e8bbcf399b7840424.png?resize=752x&vertical=center'
     const hng = 'https://static.vecteezy.com/system/resources/thumbnails/005/513/590/small_2x/catering-quality-food-design-premium-logo-vector.jpg'
@@ -16,11 +17,17 @@ const Anditems = () => {
             <Sec link={hng} ttl="Hangry(Food ordering app)" tx="Github Link"/>
             </a>
             <a href="https://github.com/Akhil2005Rai/roominate">
-                <Sec link={todo} ttl="Todo App" tx="Github Link"/>
+                <Sec link={todo} ttl="Roominate" tx="Github Link"/>
             </a>
             <a href="https://github.com/Akhil2005Rai/gossip_-ChatApp-.git">
             <Sec link={gsp} ttl="Gossip (Chat App)" tx="Github Link"/>
             </a>
+        </div>
+        <div className="row">
+        <a href="https://github.com/Akhil2005Rai/Quiztek">
+            <Sec link={qtk} ttl="Quiztek(AI based quiz app)" tx="Github Link"/>
+            </a>
+            
         </div>
         </div>
     </>
